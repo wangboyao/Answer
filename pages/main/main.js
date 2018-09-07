@@ -4,33 +4,17 @@ Page({
   data: {
     choseQuestionBank: "点击选择",
 
-    array: ['大学计算机期末考试题库', '计算机二级office题库', '毛概期末考试题库', '中国近代史期末考试题库', '马克思原理期末考试题库', '形式与政策'],
+    array: ['加菲猫饮食题库', '加菲猫生活题库'],
 
 
     objectArray: [
       {
         id: 0,
-        name: '大学计算机期末考试题库'
+        name: '加菲猫饮食题库'
       },
       {
         id: 1,
-        name: '计算机二级office题库'
-      },
-      {
-        id: 2,
-        name: '毛概期末考试题库'
-      },
-      {
-        id: 3,
-        name: '中国近代史期末考试题库'
-      },
-      {
-        id: 4,
-        name: '马克思原理期末考试题库'
-      },
-      {
-        id: 5,
-        name: '形式与政策'
+        name: '加菲猫生活题库'
       }
     ],
     index: 0,
@@ -61,7 +45,7 @@ chose: function () {
     getApp().globalData.score = 0;
 
     wx.navigateTo({
-      url: '../singleChoiceExplain/singleChoiceExplain'
+      url: '../choiceDetail/choiceDetail'
     });
   }
   else if (choseQuestionBank == "点击选择") {

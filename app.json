@@ -1,7 +1,9 @@
 {
-  "pages":[
+  "pages": [
     "pages/main/main",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/choiceDetail/choiceDetail",
+    "pages/singleChoiceDetail/singleChoiceDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

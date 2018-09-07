@@ -1,0 +1,33 @@
+<view class="page">
+
+  <view class='all'>
+    <view class='title'>
+      <text style='color:#1bd0db;font-size: 50rpx;margin-right:15rpx;'>|</text>
+      <text>检验题目</text>
+    </view>
+    <view class='content'>
+      <text>请根据您的项目实际情况填写。</text>
+    </view>
+  </view>
+
+
+  <view class='startAnswer' bindtap='action'>
+    <image class='handIcon' src='../../images/hand.png' ></image>
+    开始检验
+  </view>
+
+  <!-- <view class='bottom'>
+    <view class='left'>
+      <image class='leftIcon' src='../../images/1-01.png' bindtap='goAnswerCard'></image>
+    </view>
+    <view class='right'>
+      <image class='rightIcon' src='../../images/1-02.png'></image>
+    </view>
+  </view> -->
+
+  <view class='bottom'>
+    <view class='middle' bindtap='answerCard'>
+      <image class='leftIcon' src='../../images/1-01.png'></image>
+    </view>
+  </view>
+</view>
